@@ -1,0 +1,19 @@
+{
+  "problem": {
+    "type": "random",
+    "dims": [
+      40,
+      24,
+      12
+    ],
+    "seed": 300,
+    "volume_fraction": 0.1
+  },
+  "optimization": {
+    "mode": "5axis",
+    "directions": [
+      "z-"
+    ],
+    "regularization_weight": 0
+  }
+}

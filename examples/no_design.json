@@ -1,0 +1,21 @@
+{
+  "problem": {
+    "type": "paper",
+    "name": "mbb",
+    "regions": [
+      {
+        "type": "sphere",
+        "center": [
+          20,
+          10,
+          4
+        ],
+        "radius": 3,
+        "kind": "void"
+      }
+    ]
+  },
+  "optimization": {
+    "mode": "5axis"
+  }
+}

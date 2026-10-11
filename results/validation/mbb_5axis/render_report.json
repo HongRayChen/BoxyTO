@@ -1,0 +1,14 @@
+{
+  "figure": "/home/turbo/research/Top3d/BoxyTO_demo/results/validation/mbb_5axis/curvature.png",
+  "points": 36216,
+  "triangles": 72436,
+  "extent_xyz": [
+    40.0,
+    20.0,
+    8.0
+  ],
+  "cutoff": 0.5,
+  "curvature_limit": 0.04,
+  "dpi": 300,
+  "illustrative_collar_count": 0
+}

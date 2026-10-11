@@ -1,0 +1,27 @@
+{
+  "case": "random",
+  "mode": "5axis",
+  "seed": 42,
+  "device": "cuda:0",
+  "fe_backend": "cupy",
+  "dims_xyz": [
+    40,
+    24,
+    12
+  ],
+  "epochs": 400,
+  "target_volume_fraction": 0.1,
+  "volume_fraction": 0.10038603842258453,
+  "binary_volume_fraction": 0.07560763888888888,
+  "initial_normalization_compliance": 217.99094469597497,
+  "compliance": 26.72279113165642,
+  "binary_compliance": 8896.84447820263,
+  "fe_residual": 9.885671892465726e-09,
+  "binary_fe_residual": 2.8525182950148562e-08,
+  "max_training_fe_residual": 9.999687654404033e-09,
+  "void_max_density": null,
+  "solid_min_density": null,
+  "runtime_seconds": 499.4251123908907,
+  "torch_version": "2.11.0+cu130",
+  "numpy_version": "2.4.3"
+}

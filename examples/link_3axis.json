@@ -1,0 +1,29 @@
+{
+  "description": "link paper boundary conditions with 3axis objective; original 400 epoch schedule.",
+  "problem": {
+    "type": "paper",
+    "name": "link"
+  },
+  "optimization": {
+    "mode": "3axis",
+    "epochs": 400,
+    "fe_backend": "cpu",
+    "field_scales": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0.5
+      ],
+      [
+        1,
+        1,
+        0.5
+      ]
+    ]
+  }
+}

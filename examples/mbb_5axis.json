@@ -1,0 +1,12 @@
+{
+  "description": "mbb paper boundary conditions with 5axis objective; original 400 epoch schedule.",
+  "problem": {
+    "type": "paper",
+    "name": "mbb"
+  },
+  "optimization": {
+    "mode": "5axis",
+    "epochs": 400,
+    "fe_backend": "cpu"
+  }
+}

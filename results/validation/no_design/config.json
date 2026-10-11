@@ -1,0 +1,69 @@
+{
+  "problem": {
+    "type": "paper",
+    "name": "mbb",
+    "regions": [
+      {
+        "type": "sphere",
+        "center": [
+          20,
+          10,
+          4
+        ],
+        "radius": 3,
+        "kind": "void"
+      }
+    ]
+  },
+  "optimization": {
+    "mode": "5axis",
+    "epochs": 400,
+    "seed": 42,
+    "learning_rate": 0.002,
+    "device": "cuda:0",
+    "fe_backend": "cupy",
+    "fe_rtol": 1e-08,
+    "fe_maxiter": 20000,
+    "global_frequency": 0.6,
+    "global_scale": 1.0,
+    "field_scales": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "bands": 4,
+    "directions": [
+      "z-"
+    ],
+    "tool_axis_xyz": [
+      0,
+      0,
+      1
+    ],
+    "curvature_weight": 1000.0,
+    "intersection_weight": 1000.0,
+    "alignment_weight": 1000.0,
+    "regularization_weight": 10.0,
+    "mask_weight": 100.0,
+    "accessibility_start": 20,
+    "curvature_start": 40,
+    "intersection_start": 60,
+    "alignment_start": 20,
+    "ramp_epochs": 300,
+    "log_every": 20,
+    "render_samples": 4,
+    "render_size": 1500
+  }
+}

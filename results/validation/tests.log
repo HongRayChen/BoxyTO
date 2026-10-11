@@ -1,0 +1,40 @@
+test_custom_schemas_and_mask_orientation (test_boundary.BoundaryTests.test_custom_schemas_and_mask_orientation) ... ok
+test_duplicate_loads_accumulate (test_boundary.BoundaryTests.test_duplicate_loads_accumulate) ... ok
+test_feasibility_and_mask_gradient (test_boundary.BoundaryTests.test_feasibility_and_mask_gradient) ... ok
+test_invalid_rigid_support_and_fixed_load (test_boundary.BoundaryTests.test_invalid_rigid_support_and_fixed_load) ... ok
+test_node_ids_and_cell_coordinates (test_boundary.BoundaryTests.test_node_ids_and_cell_coordinates) ... ok
+test_original_paper_boundary_conditions (test_boundary.BoundaryTests.test_original_paper_boundary_conditions) ... ok
+test_random_deterministic_and_stable (test_boundary.BoundaryTests.test_random_deterministic_and_stable) ... ok
+test_adjoint_finite_differences (test_fea.FiniteElementTests.test_adjoint_finite_differences) ... ok
+test_cg_matches_direct_and_reports_failure (test_fea.FiniteElementTests.test_cg_matches_direct_and_reports_failure) ... ok
+test_element_node_orientation (test_fea.FiniteElementTests.test_element_node_orientation) ... ok
+test_element_stiffness_independent_integration (test_fea.FiniteElementTests.test_element_stiffness_independent_integration) ... ok
+test_equilibrium_energy_and_stiffness (test_fea.FiniteElementTests.test_equilibrium_energy_and_stiffness) ... ok
+test_gpu_matches_cpu (test_fea.FiniteElementTests.test_gpu_matches_cpu) ... ok
+test_invalid_inputs_and_zero_density (test_fea.FiniteElementTests.test_invalid_inputs_and_zero_density) ... ok
+test_torch_autograd_and_upstream (test_fea.FiniteElementTests.test_torch_autograd_and_upstream) ... ok
+test_adjugate_handles_singular_hessians (test_fields.FieldTests.test_adjugate_handles_singular_hessians) ... ok
+test_analytic_spatial_derivatives_match_autograd_and_finite_difference (test_fields.FieldTests.test_analytic_spatial_derivatives_match_autograd_and_finite_difference) ... ok
+test_cuda_field_geometry_forward_and_backward (test_fields.FieldTests.test_cuda_field_geometry_forward_and_backward) ... ok
+test_directional_shadow_and_flag_equivalence (test_fields.FieldTests.test_directional_shadow_and_flag_equivalence) ... ok
+test_forward_matches_notebook_expression_with_feature_scales (test_fields.FieldTests.test_forward_matches_notebook_expression_with_feature_scales) ... ok
+test_geometry_gradients_match_parameter_finite_difference (test_fields.FieldTests.test_geometry_gradients_match_parameter_finite_difference) ... ok
+test_geometry_losses_reuse_matches_individual_terms (test_fields.FieldTests.test_geometry_losses_reuse_matches_individual_terms) ... ok
+test_invalid_field_configuration (test_fields.FieldTests.test_invalid_field_configuration) ... ok
+test_original_initialization_and_density (test_fields.FieldTests.test_original_initialization_and_density) ... ok
+test_centers_and_coordinate_order (test_optimize.TestConfiguration.test_centers_and_coordinate_order) ... ok
+test_custom_region_feasibility (test_optimize.TestConfiguration.test_custom_region_feasibility) ... ok
+test_every_example (test_optimize.TestConfiguration.test_every_example) ... ok
+test_reject_mistyped_mode_and_scales (test_optimize.TestConfiguration.test_reject_mistyped_mode_and_scales) ... ok
+test_asymmetric_voxel_has_correct_xyz_and_y_flip (test_render.TestRendering.test_asymmetric_voxel_has_correct_xyz_and_y_flip) ... ok
+test_curvature_saturation_uses_requested_limit (test_render.TestRendering.test_curvature_saturation_uses_requested_limit) ... 2026-09-29 22:43:19.494 (   0.434s) [    752719310740]vtkXOpenGLRenderWindow.:1460  WARN| bad X server connection. DISPLAY=
+ok
+test_empty_and_invalid_inputs (test_render.TestRendering.test_empty_and_invalid_inputs) ... ok
+test_full_box_bounds_and_closed_surface (test_render.TestRendering.test_full_box_bounds_and_closed_surface) ... ok
+test_illustrative_collar_preserves_exact_export (test_render.TestRendering.test_illustrative_collar_preserves_exact_export) ... ok
+test_offscreen_screenshots_and_scalar_mesh (test_render.TestRendering.test_offscreen_screenshots_and_scalar_mesh) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 1.884s
+
+OK

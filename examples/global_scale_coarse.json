@@ -1,0 +1,10 @@
+{
+  "problem": {
+    "type": "paper",
+    "name": "mbb"
+  },
+  "optimization": {
+    "mode": "5axis",
+    "global_scale": 0.5
+  }
+}

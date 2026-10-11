@@ -1,0 +1,72 @@
+{
+  "dims": [
+    40,
+    24,
+    12
+  ],
+  "loads_points_xyz": [
+    [
+      40.0,
+      0.0,
+      11.0
+    ],
+    [
+      36.0,
+      24.0,
+      12.0
+    ]
+  ],
+  "load_vectors_xyz": [
+    [
+      -0.1274956570410559,
+      -0.31059089008855445,
+      -0.3705106697919358
+    ],
+    [
+      -0.4849155370514092,
+      0.023058882468494458,
+      0.11968796875813194
+    ]
+  ],
+  "fixed_points_xyz": [
+    [
+      40.0,
+      0.0,
+      12.0
+    ],
+    [
+      40.0,
+      24.0,
+      12.0
+    ],
+    [
+      40.0,
+      24.0,
+      0.0
+    ]
+  ],
+  "constrained_components": [
+    [
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true
+    ]
+  ],
+  "metadata": {
+    "case": "random",
+    "seed": 300,
+    "generator": "numpy.PCG64",
+    "support_style": "points",
+    "source_compatibility": "Original distributions adapted; pyFANTOM seeds are not replayed"
+  }
+}

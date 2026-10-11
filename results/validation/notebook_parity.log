@@ -1,0 +1,19 @@
+/home/turbo/miniconda3/envs/ml/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+{
+  "passed": true,
+  "samples": 5,
+  "dtype": "float64",
+  "features_per_field": 512,
+  "torch": "2.8.0+cu128",
+  "tensorflow": "2.21.0-dev20250925",
+  "max_absolute_errors": {
+    "density": 2.220446049250313e-16,
+    "gradient": 2.220446049250313e-16,
+    "hessian": 1.0755285551056204e-16,
+    "gaussian_curvature": 4.5102810375396984e-17,
+    "seams": 4.3298697960381105e-15,
+    "intersection": 1.214306433183765e-16,
+    "axis_alignment": 6.938893903907228e-18
+  }
+}
